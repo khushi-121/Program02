@@ -1,6 +1,4 @@
 public class ShapeCalculator {
-
-    // Class for Circle Area
     static class CircleArea {
         private double radius;
 
@@ -38,7 +36,7 @@ public class ShapeCalculator {
             System.out.println("Rectangle Perimeter: " + getPerimeter());
         }
     }
-public class Type {
+
     public static void main(String[] args) {
         // Circle
         CircleArea circle = new CircleArea(5.0);
@@ -50,5 +48,4 @@ public class Type {
         RectanglePerimeter rect = new RectanglePerimeter(10.0, 4.0);
         rect.displayPerimeter();
     }
-}
 }
